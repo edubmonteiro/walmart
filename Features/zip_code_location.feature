@@ -1,4 +1,6 @@
-﻿@cenario1
+# language: pt
+
+@cenario1
 Validar resposta na API dos correios para um cep valido
 Dado acesso a api dos correios
 E eu insiro manualmente um CEP valido na URL (ex.:01506000)
