@@ -1,3 +1,5 @@
+# language: pt
+
 @Cenario1
 Realizar uma busca pelo termo TV
 Dado acesso ao site http://www.walmart.com.br
