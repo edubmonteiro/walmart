@@ -1,4 +1,4 @@
-﻿@Cenario1
+@Cenario1
 Realizar uma busca pelo termo TV
 Dado acesso ao site http://www.walmart.com.br
 E visualizo no topo do site o box de busca
@@ -37,6 +37,11 @@ Entao sera visualizado o modal com opcoes de precos, condicoes de pagamento e in
 
 @Cenario5
 Validar isercao de sucesso do Produto no carrinho
-Dado
-E 
-Entao
+Dado a selecao do produto de minha escolha
+E ao visualizar a DIV carrinho
+E eu pressionar o botao "adicionar ao carrinho"
+E exibir o modal com as informacoes da compra
+E clicar em continuar
+E visualizar no header lateral direito o carrinho com a quantidade de itens no carrinho
+E clicar no carrinho
+Entao ira exibir os itens selecionados informando quantidade, precos, subtotal, consultar CEP e o botao finalizar compra
